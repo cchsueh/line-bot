@@ -49,7 +49,7 @@ def handle_message(event):
             sticker_message)
         return
 
-    if msg == ['hi', 'HI']:
+    if msg in ['hi', 'HI']:
         r = '嗨'
     elif msg == '你是誰':
         r = '我是機器人'
